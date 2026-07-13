@@ -39,6 +39,27 @@
     height: 50px;
     object-fit: cover;
 }
+/* button design */
+.nav-bar-container .register-now{
+    padding: 8px 28px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(17, 93, 235);
+    color: white;
+    font-weight: bold;
+}
+.event-description-parent .register-now{
+     padding: 16px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(17, 93, 235);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+
 /* style for background img */
 .event-description-parent {
 
@@ -56,9 +77,27 @@
 .event-description-parent{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
+    align-content: center;
+    row-gap: 250px;
 }
+
+/* .event-description{
+    text-align: center;
+} */
+
+.event-description h1{
+    color: white;
+    font-size: 4.5rem;
+
+}
+.event-description p{
+    color: rgb(233, 228, 228);
+    padding-top: 15px;
+    text-align: center;
+}
+
 
 /* start code for meet the speaker section */
 .guest-page-title {
