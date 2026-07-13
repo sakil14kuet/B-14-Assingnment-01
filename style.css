@@ -231,3 +231,90 @@ hr {
     border-color: blue;
     
 }
+
+
+/* styles from gpt */
+.faq{
+    max-width:700px;
+    margin:80px auto;
+    padding:20px;
+}
+
+.faq h2{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.faq p{
+    text-align:center;
+    color:#666;
+    margin-bottom:40px;
+}
+.faq-item{
+    display:flex;
+    align-items:center;
+
+    gap:20px;
+
+    background:white;
+    border:1px solid #ddd;
+    border-radius:8px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.faq-item:hover{
+    background:#eef5ff;
+    border-color:#2563eb;
+}
+
+.faq-item span{
+    font-size:24px;
+    color:#2563eb;
+    font-weight:bold;
+}
+
+.faq-item h3{
+    font-size:18px;
+    font-weight:500;
+}
+
+.container{
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+    max-width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* footer design */
+footer{
+    background-color: rgb(252, 229, 200);
+    
+}
+.footer-container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px;
+}
+
+.left{
+    display: flex;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 10px;
+    
+}
